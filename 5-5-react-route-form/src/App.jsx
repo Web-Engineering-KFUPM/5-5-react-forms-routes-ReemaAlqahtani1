@@ -156,6 +156,7 @@ export default function App() {
       <nav className="navbar">
         <div className="brand">🧑‍💻 Student Portal</div>
         <div className="links">
+          {/*Nav links*/}
           <NavLink to="/" end className="navlink">
             Home
           </NavLink>
@@ -171,6 +172,7 @@ export default function App() {
       </nav>
 
       <main className="container">
+        {/*Routes*/}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
